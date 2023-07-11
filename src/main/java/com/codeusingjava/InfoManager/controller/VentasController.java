@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-@CrossOrigin(origins = "http://localhost:4203",maxAge = 3600)
+@CrossOrigin(allowedHeaders = "*",origins = "*")
 @RestController
 @RequestMapping("/api/v5")
 public class VentasController {
