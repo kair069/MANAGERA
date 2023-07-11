@@ -1,0 +1,20 @@
+
+
+spring:
+  application:
+    name: Ventas
+  cloud:
+    config:
+      uri:http://localhost:8888
+
+server:
+  port: 9999
+  servlet:
+    context-path: /Ventas
+
+
+eureka:
+  client:
+    fetch-registry: true
+    serviceUrl:
+      defaultZone: http://localhost:8760/eureka

@@ -1,0 +1,11 @@
+spring.cloud.config.uri=http://localhost:8888
+server.port=9999
+
+
+eureka.client.serviceUrl=http://localhost:8760/eureka/
+
+
+
+
+
+

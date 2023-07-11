@@ -1,0 +1,22 @@
+
+
+spring:
+  application:
+    name: Ventas
+  cloud:
+    config:
+      uri:https://configservera.azurewebsites.net/
+      #uri:http://localhost:8888
+
+server:
+  port: 9999
+  servlet:
+    context-path: /Ventas
+
+
+eureka:
+  client:
+    fetch-registry: true
+    serviceUrl:
+      defaultZone: https://configuracioneurekas.azurewebsites.net/eureka
+      #defaultZone: http://localhost:8760/eureka
